@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        document.write(("<br>----------------------punto 1--------------------------<br>"));
+
+        var nombres=[];
+
+        for (let i=0; i<10; i++) {;
+
+            nombres[i]=(prompt("Ingrese su nombre"));
+            
+        };
+
+        nombres.sort();
+        document.write(nombres.join(" - ") + "<br>");
+        console.log(nombres);
+
+        document.write(("<br>----------------------punto 2--------------------------<br>"));
+
+        var num=[2,1,6,3,9,6,5,3,7,1,7,1,0,2,3];
+        num.sort();
+        document.write(num.join(" - ") + "<br>");
+        console.log(num);
+
+        document.write(("<br>----------------------punto 3--------------------------<br>"));
+
+        var azar=[];
+        var n=10;
+        var z=15;
+        var a=20;
+
+        for(let i=0; i<n;i++) {
+
+            azar[i]=Math.floor(Math.random()*10);
+
+        };
+
+        azar.sort();
+        document.write(azar.join(" - ") + "<br>");
+        console.log(azar);
+
+    </script>
+
+</body>
+
+</html>
